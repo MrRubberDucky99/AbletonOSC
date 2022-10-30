@@ -28,8 +28,8 @@ AbletonOSC listens for OSC messages on port **11000**, and sends replies on port
 
 | Address | Query params | Response params              | Description                                                                  | Implemented |
 | :------ | :----------- |:-----------------------------|:-----------------------------------------------------------------------------| :---------- |
-| /live/test | | 'ok'                         | Display a confirmation message in Live, and sends an OSC reply to /live/test | [x] |
-| /live/application/get/version | | major_version, minor_version | Query Live's version                                                         | [ ] |
+| /live/test | | 'ok'                         | Display a confirmation message in Live, and sends an OSC reply to /live/test | :heavy_check_mark: |
+| /live/application/get/version | | major_version, minor_version | Query Live's version                                                         | :heavy_check_mark: |
 
 ### Application status messages
 
